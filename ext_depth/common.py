@@ -9,7 +9,8 @@ def second_func():
 
 class Human:
     def __init__(self):
-        self.name = "Unknown"
+        self.name = "Unknown"  # this is a class variable. 'self' is a way to hold class variables and class functions
 
     def print_name(self):
+        """Class functions are called methods"""
         print(self.name)
