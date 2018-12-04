@@ -1,0 +1,29 @@
+syntax: glob
+
+# PyCharm settings
+.idea/
+
+# Byte-compiled / optimized 
+__pycache__/
+*.pyc
+*.pyo
+*.cache/
+*.aux.xml
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+_build/
